@@ -66,7 +66,7 @@ Create a working directory and initialize the ArtemisOS manifest:
 mkdir -p ~/artemis && cd ~/artemis
 
 # Initialize the repo with ArtemisOS manifest
-repo init -u https://github.com/ArtemisOS/android_manifest.git -b main --git-lfs
+repo init -u https://github.com/ArtemisOS-Foundation/ArtemisOS-manifest.git -b main --git-lfs
 
 # Sync the source (this may take a while)
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
